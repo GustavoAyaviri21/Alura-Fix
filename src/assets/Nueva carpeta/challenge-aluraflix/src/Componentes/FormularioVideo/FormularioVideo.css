@@ -1,0 +1,9 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.formulario form{
+    max-width: 80%;
+}

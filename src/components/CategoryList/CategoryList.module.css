@@ -1,0 +1,34 @@
+/* CourseSection.module.css */
+.sectionStyles {
+    width: 100%;
+    background-color: var(--main-background-black);
+    padding: 40px 27px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 40px;
+  }
+  
+  @media (min-width: 1024px) {
+    .sectionStyles {
+      align-items: center;
+      padding: 62px;
+    }
+  }
+  
+  .courseContainer {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--main-color-blue) var(--scrollbar-color);
+    padding-bottom: 12px;
+  }
+  
+  @media (min-width: 1024px) {
+    .courseContainer {
+      align-self: flex-start;
+    }
+  }
+  

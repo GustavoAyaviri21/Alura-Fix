@@ -1,0 +1,14 @@
+
+.inputContainer label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inputContainer input {
+    width: 100%;
+    border: 3px solid var(--Dark-Grey, #262626);
+    background: none;
+    height: 50px;
+    border: 3px solid var(--Dark-Grey, #262626);
+    border-radius: 10px;
+}

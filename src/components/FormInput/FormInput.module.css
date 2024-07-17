@@ -1,0 +1,67 @@
+.labelStyles {
+    width: 100%;
+    color: var(--secondary-white);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .labelStylesModal {
+    width: 100%;
+  }
+  
+  .labelStylesDefault {
+    width: 47%;
+  }
+  
+  .inputStyles {
+    font-family: "Source sans Pro", sans-serif;
+    border-radius: 10px;
+    height: 62px;
+    font-size: 2rem;
+    font-weight: 300;
+    background: none;
+    padding: 16px 4px;
+    color: var(--secondary-white);
+    border: 3px solid var(--main-gray);
+  }
+  
+  .inputStylesModal {
+    border: 3px solid var(--main-color-blue);
+  }
+  
+  .inputStylesError {
+    border: 3px solid var(--error-color);
+  }
+  
+  .textareaStyles {
+    font-family: "Source sans Pro", sans-serif;
+    height: 155px;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 300;
+    background: none;
+    padding: 16px 4px;
+    color: var(--secondary-white);
+    border: 3px solid var(--main-gray);
+    resize: none;
+    scrollbar-width: thin;
+    scrollbar-color: var(--main-color-blue) var(--scrollbar-color);
+  }
+  
+  .textareaStylesModal {
+    border: 3px solid var(--main-color-blue);
+  }
+  
+  .textareaStylesError {
+    border: 3px solid var(--error-color);
+  }
+  
+  .errorStyles {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--error-color);
+  }
+  

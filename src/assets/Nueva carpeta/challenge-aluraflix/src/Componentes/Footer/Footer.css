@@ -1,0 +1,10 @@
+.footer {
+    text-align: center;
+    background: #000000E5;
+    border-top: 4px solid var(--Blue, #2271D1);
+    padding: 40px;
+  }
+  
+  .logo{
+    width: 170px;
+  }

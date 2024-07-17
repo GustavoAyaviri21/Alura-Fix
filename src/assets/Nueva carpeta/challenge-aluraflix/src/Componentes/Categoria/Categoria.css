@@ -1,0 +1,17 @@
+.categoria{
+    width: 100%;
+    margin: 100px 20px 50px 20px;
+    box-sizing: border-box;
+    font-size: 32px;
+}
+
+.categoria h3{
+    width: 20%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+}

@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    min-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    font-size: 2.4rem;
+    font-weight: bold;
+    background-color: var(--background);
+    color: var(--text);
+}

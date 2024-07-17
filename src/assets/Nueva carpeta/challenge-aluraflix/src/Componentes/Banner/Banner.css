@@ -1,0 +1,30 @@
+.banner {
+    color: white;
+    background-image: url('../../Assets/img/fondoBanner.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #6BD1FF;
+    width: 100%;
+    height: 780px;
+}
+
+.row{
+    align-items: center;
+}
+
+.divTexto{
+    margin-left: 40px;
+}
+
+.divVideo{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .divTexto{
+        align-items: center;
+    }
+  }
+

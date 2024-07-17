@@ -1,0 +1,46 @@
+.label {
+    width: 100%;
+    color: var(--secondary-white);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  @media (min-width: 1024px) {
+    .label--modal {
+      width: 100%;
+    }
+  
+    .label:not(.label--modal) {
+      width: 47%;
+    }
+  }
+  
+  .select {
+    font-family: "Source sans Pro", sans-serif;
+    border-radius: 10px;
+    height: 62px;
+    font-size: 2rem;
+    font-weight: 300;
+    background-color: var(--main-background-black);
+    padding: 16px 4px;
+    color: var(--secondary-white);
+    border: 3px solid var(--main-gray);
+  }
+  
+  .select--modal {
+    background-color: var(--background-modal);
+    border: 3px solid var(--main-color-blue);
+  }
+  
+  .select--error:invalid {
+    border: 3px solid var(--error-color);
+  }
+  
+  .error {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  

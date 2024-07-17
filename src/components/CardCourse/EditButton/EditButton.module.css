@@ -1,0 +1,17 @@
+.buttonStyles {
+    height: 28px;
+    display: flex;
+    gap: 20px;
+    background: none;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .textStyles {
+    color: var(--secondary);
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  

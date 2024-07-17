@@ -1,0 +1,65 @@
+body{
+  background: #000000E5;
+}
+
+.navbar {
+  height: 125px;
+  background-color: #262626;
+  padding: 30px;
+}
+
+.logo{
+  width: 170px;
+}
+
+.navbar button {
+  background: #000000E5;
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  /* width: 180.13px; */
+  width: 180.13px;
+  height: 54px;
+  border-radius: 10px;
+  border: 2px 0px 0px 0px;
+}
+
+.btnHome {
+  color: #2271D1;
+  border: 2px solid var(--Blue, #2271D1);
+  box-shadow: 0px 0px 12px 4px #2271D1 inset;
+  margin-right: 20px;
+}
+
+.btnNewVideo {
+  background: #FFFFFF;
+  border: 2px solid #F5F5F5;
+  color: #F5F5F5;
+}
+
+@media screen and (max-width: 650px) {
+  .navbar{
+    height: max-content;
+  }
+
+  .logo{
+    display: flex;
+    justify-content: center;
+    margin: 0 20% 5% 20%;
+    width: 60%;
+  }
+
+  .btnContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar button{
+    width: 100px;
+    margin: 10px 10px 10px 0;
+  }
+}
